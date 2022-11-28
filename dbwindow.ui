@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DB housestaff</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>881</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>phone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>bio</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>birth</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>wage</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btn">
+   <property name="geometry">
+    <rect>
+     <x>792</x>
+     <y>440</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(34, 170, 34);
+background-color: rgb(255, 249, 165);</string>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn1">
+   <property name="geometry">
+    <rect>
+     <x>672</x>
+     <y>440</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(34, 170, 34);
+background-color: rgb(255, 250, 166);</string>
+   </property>
+   <property name="text">
+    <string>Add new</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="nametext">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="phonetext">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="biotext">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="birthtext">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>360</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="wagetext">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>360</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>310</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>310</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>phone</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>310</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>bio</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>birth</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>310</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>wage</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DB</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>pic/greenleft.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>391</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(7, 170, 48);
+background-color: rgb(255, 254, 208);
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>DataBase</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>260</y>
+      <width>391</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btn">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 170, 38);
+background-color: rgb(255, 243, 147);</string>
+       </property>
+       <property name="text">
+        <string>Open DB</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btn1">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(34, 170, 34);
+background-color: rgb(255, 247, 124);</string>
+       </property>
+       <property name="text">
+        <string>Quit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(34, 170, 34);</string>
+    </property>
+    <property name="text">
+     <string>Housestaff</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
